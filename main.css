@@ -1,0 +1,33 @@
+body{
+    background-image: url(https://image.freepik.com/free-photo/pastel-blue-alarm-clock-with-six-o-clock-blue-background-6-am-6-pm_83271-384.jpg);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    
+}
+.bold{
+    font-weight: bold;
+}
+.styl1{
+    font-size: 2.0rem;
+    font-family: 'Poppins', sans-serif;
+   
+}
+.container .styl1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2.0;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1;
+    margin: 0 2rem;
+}
